@@ -21,7 +21,7 @@ class Program
         Rate = Convert.ToInt32(Console.ReadLine());
 
         Double Pay = (Hours * Rate) * (0.82);
-        Double Taxes = (Hours * Rate) *  (0.18);
+        Double Taxes = (Hours * Rate) * (0.18);
 
         Console.WriteLine("");
         Console.Write("Your pay will be: " + Pay.ToString("0.00"));
